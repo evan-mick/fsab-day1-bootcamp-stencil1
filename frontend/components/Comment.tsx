@@ -8,7 +8,13 @@ interface Props {
 
 const Comment: FC<Props> = ({content, postedAt}) => {
     // TODO: Implemnt a Comment!
-    return ();
+    return (
+        <Box>
+            <Text>
+                { content } 
+            </Text>
+        </Box>
+    );
 }
 
 export default Comment;
